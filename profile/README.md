@@ -24,7 +24,7 @@ Intent signed --> Solvers compete --> ZK compliance proof --> Shielded settlemen
 
 ### What's live
 
-Riddler (our solver) runs on Ethereum, Optimism, Base, Arbitrum, and Polygon. Stealth smart accounts with gasless claiming. Trust scoring across 20+ attestation providers. Bare-metal infrastructure we've operated since 2021.
+Riddler (our solver) runs on Ethereum, Optimism, Base, Arbitrum, and Polygon. Stealth smart accounts with gasless claiming. Attestation-based trust scoring across four categories (humanity, identity, reputation, compliance). Bare-metal infrastructure we've operated since 2021.
 
 ### Team
 
