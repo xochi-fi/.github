@@ -1,8 +1,8 @@
 # Xochi
 
-**Private execution for Ethereum.**
+**ETH's Friendly Dark Pool**
 
-Xochi is a dark pool where trades settle without broadcasting your business to every MEV bot on the network. You sign an intent, solvers compete to fill it, and settlement lands in under 3 seconds. A zero-knowledge proof confirms compliance. The regulator verifies the proof -- they never see the trade.
+Xochi is a private execution venue for Ethereum. You sign an intent, solvers compete to fill it, and nothing hits the mempool. Settlement lands in under 3 seconds. A zero-knowledge compliance oracle proves all parties are clean without revealing the trade itself. Regulators verify a proof. They never see the data.
 
 Privacy is free at the base tier. Verified users unlock stealth smart accounts, shielded settlement, and better rates. The protocol is cash-positive on every transaction.
 
@@ -15,20 +15,17 @@ Intent signed --> Solvers compete --> ZK compliance proof --> Shielded settlemen
 
 ### Repos
 
-| Repo | What it is |
-|------|------------|
-| [xochi](https://github.com/xochi-fi/xochi) | Frontend, API, and shared protocol logic |
-| [erc-xochi-zkp](https://github.com/xochi-fi/erc-xochi-zkp) | ERC draft + reference implementation for the ZK compliance oracle |
-| [XIPs](https://github.com/xochi-fi/XIPs) | Xochi Improvement Proposals |
-| [xochi-brand-identity](https://github.com/xochi-fi/xochi-brand-identity) | Brand assets, palette, typography, guidelines |
+| Repo                                                                     | What it is                                                          |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| [xochi](https://github.com/xochi-fi/xochi)                               | Frontend, API, and shared protocol logic                            |
+| [erc-xochi-zkp](https://github.com/xochi-fi/erc-xochi-zkp)               | ERC draft and reference implementation for the ZK compliance oracle |
+| [nahualli](https://github.com/xochi-fi/nahualli)                         | Vanity stealth key grinder for ERC-5564                             |
+| [XIPs](https://github.com/xochi-fi/XIPs)                                 | Xochi Improvement Proposals                                         |
+| [xochi-brand-identity](https://github.com/xochi-fi/xochi-brand-identity) | Brand assets, palette, typography, guidelines                       |
 
 ### What's live
 
-Riddler (our solver) runs on Ethereum, Optimism, Base, Arbitrum, and Polygon. Stealth smart accounts with gasless claiming. Attestation-based trust scoring across four categories (humanity, identity, reputation, compliance). Bare-metal infrastructure we've operated since 2021.
-
-### Team
-
-Built by alumni of Blockdaemon, Lido, Deloitte, General Dynamics, the U.S. DOJ, and the FBI. DeFi engineering meets federal compliance -- because compliant privacy requires people who build cryptography and people who understand how governments break it.
+Riddler (our solver) runs on Ethereum, Optimism, Base, Arbitrum, and Polygon. Stealth smart accounts with gasless claiming. Attestation-based trust scoring across four categories: humanity, identity, reputation, compliance. Bare-metal infrastructure we've operated since 2021.
 
 ---
 
