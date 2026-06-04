@@ -1,8 +1,10 @@
-# Xochi (/'SOH-chee'/)
+# Xochi
 
 **The Friendly Dark Pool for Crypto**
 
-Xochi is a cross-chain private execution venue anchored on Ethereum. You sign an intent, solvers compete to fill it across six chains (~2s typical, <6s P95), and nothing hits the mempool. A zero-knowledge compliance oracle proves the trade is AML and sanctions-compliant without revealing it. Regulators verify a proof. They never see the trade.
+Xochi (pronounced /'SOH-chee'/),is a cross-chain private execution venue anchored on Ethereum. 
+You sign an intent, solvers compete to fill it across six chains (~2s typical, <6s P95), and nothing hits the mempool. 
+A zero-knowledge compliance oracle proves the trade is AML and sanctions-compliant without revealing it. Regulators verify a proof. They never see the trade.
 
 Privacy is free by default. Attestation-verified members unlock stealth settlement, shielded L2 notes, and lower fees.
 
