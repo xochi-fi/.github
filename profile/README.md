@@ -1,4 +1,4 @@
-# Xochi
+# Xochi (/'SOH-chee'/)
 
 **The Friendly Dark Pool for Crypto**
 
