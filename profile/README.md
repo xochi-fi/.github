@@ -2,11 +2,11 @@
 
 **The Friendly Dark Pool for Crypto**
 
-Xochi (pronounced /'SOH-chee'/),is a cross-chain private execution venue anchored on Ethereum. 
-You sign an intent, solvers compete to fill it across six chains (~2s typical, <6s P95), and nothing hits the mempool. 
-A zero-knowledge compliance oracle proves the trade is AML and sanctions-compliant without revealing it. Regulators verify a proof. They never see the trade.
+Xochi (pronounced /'SOH-chee'/) is a cross-chain private execution venue anchored on Ethereum. You sign an intent, solvers compete to fill it across six chains in about two seconds, and nothing hits the mempool.
 
-Privacy is free by default. Attestation-verified members unlock stealth settlement, shielded L2 notes, and lower fees.
+For compliance, a zero-knowledge oracle (ERC-8262) proves the trade is AML and sanctions-clean. Regulators verify the proof. They don't see the trade.
+
+Privacy is the default. Members who complete attestation get stealth settlement on L1, shielded notes on L2, and lower fees.
 
 ### How it works
 
@@ -15,17 +15,20 @@ Intent signed --> Solvers compete --> ZK compliance proof --> Shielded settlemen
   (private)       (~2s fill)           (no data revealed)     (L1 stealth or L2)
 ```
 
-| Repo                                                                     | What it is                                                |
-| ------------------------------------------------------------------------ | --------------------------------------------------------- |
-| [xochi](https://github.com/xochi-fi/xochi)                               | Frontend, API, and shared protocol logic                  |
-| [ERC-8262](https://github.com/xochi-fi/ERC-8262)                         | ERC reference implementation for the ZK compliance oracle |
-| [nahualli](https://github.com/xochi-fi/nahualli)                         | Vanity stealth key grinder for ERC-5564                   |
-| [XIPs](https://github.com/xochi-fi/XIPs)                                 | Xochi Improvement Proposals                               |
-| [xochi-brand-identity](https://github.com/xochi-fi/xochi-brand-identity) | Brand assets, palette, typography, guidelines             |
+### Open source
+
+| Repo                                                                     | What it is                                                       |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| [ERC-8262](https://github.com/xochi-fi/ERC-8262)                         | ERC-8262 ZK Compliance Oracle reference implementation           |
+| [xochi-sdk](https://github.com/xochi-fi/xochi-sdk)                       | SDK for generating and verifying ERC-8262 proofs                 |
+| [pxe-bridge](https://github.com/xochi-fi/pxe-bridge)                     | JSON-RPC bridge from EVM solvers to Aztec shielded settlement    |
+| [nahualli](https://github.com/xochi-fi/nahualli)                         | Vanity stealth key grinder for ERC-5564                          |
+| [XIPs](https://github.com/xochi-fi/XIPs)                                 | Xochi Improvement Proposals                                      |
+| [xochi-brand-identity](https://github.com/xochi-fi/xochi-brand-identity) | Brand assets, palette, typography, guidelines                    |
 
 ### What's live
 
-Riddler (our solver) runs on Ethereum, Optimism, Base, Arbitrum, Tron, and Polygon. Stealth smart accounts with gasless claiming. Attestation-based trust scoring across four categories: humanity, identity, reputation, compliance.
+Riddler, our solver, runs on Ethereum, Optimism, Base, Arbitrum, Tron, and Polygon. Stealth smart accounts ship with gasless claiming. Attestations cover four trust categories: humanity, identity, reputation, compliance.
 
 ---
 
