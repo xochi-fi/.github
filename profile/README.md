@@ -2,7 +2,7 @@
 
 **The Friendly Dark Pool for Crypto**
 
-Xochi (pronounced /'SOH-chee'/) is a cross-chain private execution venue anchored on Ethereum. You sign an intent, solvers compete to fill it across six chains in about two seconds, and nothing hits the mempool.
+Xochi (pronounced /'SOH-chee'/) is a cross-chain private execution venue anchored on Ethereum. You sign an intent, solvers compete to fill it across integrated chains in about two seconds, and nothing hits the mempool.
 
 For compliance, a zero-knowledge oracle (ERC-8262) proves the trade is AML and sanctions-clean. Regulators verify the proof. They don't see the trade.
 
@@ -25,10 +25,6 @@ Intent signed --> Solvers compete --> ZK compliance proof --> Shielded settlemen
 | [nahualli](https://github.com/xochi-fi/nahualli)                         | Vanity stealth key grinder for ERC-5564                          |
 | [XIPs](https://github.com/xochi-fi/XIPs)                                 | Xochi Improvement Proposals                                      |
 | [xochi-brand-identity](https://github.com/xochi-fi/xochi-brand-identity) | Brand assets, palette, typography, guidelines                    |
-
-### What's live
-
-Riddler, our solver, runs on Ethereum, Optimism, Base, Arbitrum, Tron, and Polygon. Stealth smart accounts ship with gasless claiming. Attestations cover four trust categories: humanity, identity, reputation, compliance.
 
 ---
 
