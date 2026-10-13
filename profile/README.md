@@ -20,7 +20,7 @@ Intent signed --> Solvers compete --> ZK compliance proof --> Shielded settlemen
 | Repo                                                                     | What it is                                                       |
 | ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
 | [ERC-8262](https://github.com/xochi-fi/ERC-8262)                         | ERC-8262 ZK Compliance Oracle reference implementation           |
-| [xochi-sdk](https://github.com/xochi-fi/xochi-sdk)                       | SDK for generating and verifying ERC-8262 proofs                 |
+| [xochi-sdk](https://github.com/xochi-fi/xochi-sdk)                       | Packages for building on Xochi: ERC-8262 ZK compliance proofs, provider attestations, trade API client and widget, intent signing with wire contracts   |
 | [pxe-bridge](https://github.com/xochi-fi/pxe-bridge)                     | JSON-RPC bridge from EVM solvers to Aztec shielded settlement    |
 | [nahualli](https://github.com/xochi-fi/nahualli)                         | Vanity stealth key grinder for ERC-5564                          |
 | [XIPs](https://github.com/xochi-fi/XIPs)                                 | Xochi Improvement Proposals                                      |
